@@ -1,6 +1,6 @@
 # GIT
 
-## git项目提交到github
+## git -- 本地新建项目提交到github
 
 1. 创建本地文件夹git-lessons -> README.md
 
@@ -19,13 +19,13 @@ git init
 git remote add origin git@github.com:Yue-Sword/git-lessons.git
 ```
 
-拉取并合并本地仓库与远程仓库： 
+4. 拉取并合并本地仓库与远程仓库： 
 
 ```bash
 git pull --rebase origin master
 ```
 
-提交本地代码
+5. 提交本地代码
 
 > 第一次推送，需要添加 `--set-upstream` 或 `-u`，意思是设置已有的本地分支跟踪一个刚刚拉取下来的远程分支， 或者说要推送当前分支并将远程设置为上游 
 
@@ -35,3 +35,10 @@ git commit -m "xxx"
 git push --set-upstream origin master
 ```
 
+## git -- 新建、切换、删除分支
+
+- 从已有的分支上创建新分支
+
+```bash
+git checkout -b dev
+```
