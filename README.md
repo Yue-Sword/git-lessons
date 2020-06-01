@@ -57,3 +57,8 @@ git push --set-upstream origin dev
   ```
 
 - 有冲突的合并
+
+  > 示例：向master中合并dev分支并存在冲突，首先需要找到冲突点，合并解决冲突，并提交
+
+  ![有冲突的合并](./images/git-merge.png)
+
