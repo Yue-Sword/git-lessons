@@ -1,4 +1,6 @@
 # GIT
+>
+
 
 ## git -- 本地新建项目提交到github
 
@@ -41,4 +43,7 @@ git push --set-upstream origin master
 
 ```bash
 git checkout -b dev
+git add .
+git commit -m 'create dev'
+git push --set-upstream origin dev
 ```
