@@ -1,5 +1,5 @@
 # GIT
->
+>测试有冲突的合并
 
 
 ## git -- 本地新建项目提交到github
@@ -47,3 +47,15 @@ git add .
 git commit -m 'create dev'
 git push --set-upstream origin dev
 ```
+
+## git -- 合并分支
+
+- 无冲突的合并
+
+  ```bash
+  git merge dev
+  ```
+
+- 有冲突的合并
+
+  
